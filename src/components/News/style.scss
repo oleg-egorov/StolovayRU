@@ -1,14 +1,14 @@
 .News {
     display: flex;
     flex-direction: column;
-    margin: 100px 70px 10px 70px;
+    margin: 10vw 7vw 1vw 7vw;
 
     &__Header {
         height: 10%;
-        margin-bottom: 40px;
+        margin-bottom: 4vw;
         
         span {
-            font-size: 34px;
+            font-size: 3.4vw;
         }
     }
 
@@ -29,15 +29,15 @@
     &__Text {
         display: flex;
         flex-direction: column;
-        margin: 10px;
+        margin: 1vw;
 
         span:nth-child(2n) {
-            font-size: 20px;
-            margin-bottom: 10px;
+            font-size: 2vw;
+            margin-bottom: 1vw;
         }
 
         span:nth-child(3n) {
-            font-size: calc(8px + 0.5vw);
+            font-size: 1.2vw;
         }
 
         div{
@@ -47,12 +47,12 @@
             justify-content: space-between;
 
             span {
-                font-size: 14px;
+                font-size: 1vw;
                 color: #34a853;
             }
 
             span:nth-child(2n) {
-                font-size: 14px;
+                font-size: 1vw;
                 color: #777777;
             }
         }
@@ -68,7 +68,7 @@
     &__Item {
         display: flex;
         height: 33%;
-        margin-bottom: 20px;
+        margin-bottom: 2vw;
 
         &:last-child {
             margin: 0;
@@ -87,16 +87,16 @@
             width: 75%;
             flex-direction: column;
             height: 100%;
-            margin-left: 10px;
+            margin-left: 1vw;
             overflow: hidden;
 
             span {
-                font-size: calc(6px + 0.5vw);
+                font-size: .9vw;
             }
 
             span:nth-child(2n) {
-                font-size: calc(10px + 0.5vw);
-                margin-bottom: 10px;
+                font-size: 1.4vw;
+                margin-bottom: 1vw;
             }
         }
 
@@ -110,22 +110,22 @@
 
             span:nth-child(2n) {
                 color: #777777;
-                font-size: calc(6px + 0.5vw);
+                font-size: .9vw;
             }
         }
     }
 
     &__Button {
-        width: 150px;
-        height: 30px;
-        margin-left: 10px;
-        margin-top: 20px;
+        width: 15vw;
+        height: 3vw;
+        margin-left: 1vw;
+        margin-top: 2vw;
         
-        border: 2px solid black;
-        border-radius: 20px;
+        border: .2vw solid black;
+        border-radius: 2vw;
         background-color: rgba(255, 255, 255, 0);
         font-family: MyriadPro_Light;
-        font-size: 16px;
+        font-size: 1.2vw;
         outline: none;
         cursor: pointer;
         transition: .2s;

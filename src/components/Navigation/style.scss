@@ -1,7 +1,7 @@
 .Navigation {
     display: flex;
     background-color: #282828;
-    padding: 50px 150px;
+    padding: 2vw 10vw;
     justify-content: space-between;
 
     &__Items {
@@ -10,8 +10,8 @@
 
         span {
             color: gray;
-            font-size: calc(4px + 1.2vw);
-            margin-bottom: 15px;
+            font-size: 1.6vw;
+            margin-bottom: 1.4vw;
         }
 
         div {
@@ -20,16 +20,16 @@
 
             a, & > span{
                 color: white;
-                margin-bottom: 5px;
-                font-size: calc(6px + .6vw);
+                margin-bottom: .5vw;
+                font-size: 1.2vw;
             }
 
             span:nth-child(4n) {
-                margin-top: 15px;
+                margin-top: 1vw;
             }
 
             span:nth-child(6n) {
-                margin-top: 15px;
+                margin-top: 1vw;
             }
         }
         

@@ -1,10 +1,10 @@
 .NotActive, .FakeCircle {
-    margin: 0 5px;
-    width: 9px;
-    height: 9px;
+    margin: 0 .5vh;
+    width: .5vw;
+    height: .5vw;
 
     background-color: rgba(255, 255, 255, 0);
-    border: 1px solid white;
+    border: .1vw solid white;
     border-radius: 50%;
 
     @media (max-device-width: 767px) {
@@ -15,8 +15,8 @@
 }
 
 .Active {
-    width: 10px;
-    height: 10px;
+    width: .7vw;
+    height: .7vw;
     border: none;
     background-color: white;
 

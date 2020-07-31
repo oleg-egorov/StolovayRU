@@ -7,12 +7,12 @@
     overflow-y: auto;
 
     &__Header {
-        margin: 10px 30px;
+        margin: 1vw 1.4vw;
         display: flex;
         flex-direction: column;
 
         span:first-child {
-            font-size: calc(8px + 0.8vw);
+            font-size: 1.2vw;
             color: #faad3d;
 
             @media (max-device-width: 767px) {
@@ -46,7 +46,7 @@
     }
 
     &__Item {
-        border: 1px solid #cebde54b;
+        border: .1vw solid #cebde54b;
         width: 100%;
         height: 10%;
         border-top: none;
@@ -58,9 +58,9 @@
         transition: .2s;
 
         a {
-            margin: 10px 30px;
+            margin: .8vw 1.4vw;
             font-family: MyriadPro_Light;
-            font-size:calc(4px + 0.8vw);
+            font-size: .9vw;
 
             display: flex;
             width: 100%;
@@ -69,7 +69,7 @@
         }
 
         img {
-            height: 10px;
+            height: .6vw;
         }
 
         &:hover {

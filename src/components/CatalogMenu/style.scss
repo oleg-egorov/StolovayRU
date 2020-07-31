@@ -2,9 +2,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 100px;
+    height: 7vw;
     background-color: white;
-    box-shadow: 0 0 10px lightgray;
+    box-shadow: 0 0 1vw lightgray;
 
     &__Item {
         display: flex;
@@ -14,31 +14,31 @@
         cursor: pointer;
 
         span {
-            font-size:calc(4px + 0.7vw)
+            font-size: 1vw; 
         }
     }
 
     &__Item:first-child {
-        margin-left: 50px;
+        margin-left: 5vw;
     }
 
     &__Item:last-child {
-        margin-right: 50px;
+        margin-right: 5vw;
     }
 
     &__Circle {
         display: flex;
-        height: 60px;
-        width: 60px;
+        height: 4vw;
+        width: 4vw;
         overflow: hidden;
         border-radius: 50%;
         background: linear-gradient(lightgray, darkgray);
 
         img {
             position: relative;
-            bottom: 30px;
-            height: 100px;
-            width: 100px;
+            bottom: 2vw;
+            height: 6vw;
+            width: 6vw;
         }
     }
 

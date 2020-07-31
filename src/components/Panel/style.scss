@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     height: 70vw;
-    margin: 100px 150px;
+    margin: 8vw 10vw;
 
     @media (max-device-width: 767px) {
         height: auto;
@@ -14,13 +14,13 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-bottom: 50px;
+        margin-bottom: 4vw;
 
         span {
-            font-size: 40px;
+            font-size: 3vw;
             
             &:nth-child(2n) {
-                font-size: 18px;
+                font-size: 1.4vw;
                 text-align: center;
                 width: 50%;
             }
@@ -71,7 +71,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-left: 5px;
+        margin-left: .5vw;
         width: 20%;
         background-color: white;
 
@@ -105,16 +105,15 @@
 
             span {
                 &:first-child {
-                    margin-top: 15px;
+                    margin-top: 1.5vw;
                     text-transform: uppercase;
                     font-family: MyriadPro_Light;
-                    font-size: calc(4px + .8vw);
+                    font-size: 1.2vw;
                 }
     
                 &:nth-child(2n) {
-                    font-size: 24px;
-                    margin-bottom: 20px;
-                    font-size: calc(6px + .8vw);
+                    margin-bottom: .8vw;
+                    font-size: 1.3vw;
                 }
     
                 &:nth-child(3n) {
@@ -124,7 +123,7 @@
                     text-transform: none;
                     opacity: 0.6;
                     margin: 0;
-                    font-size: calc(4px + .8vw);
+                    font-size: 1.1vw;
                 }
             }
         }
@@ -151,13 +150,13 @@
     &__Bottom {
         display: flex;
         height: 60%;
-        margin-top: 5px;
+        margin-top: .5vw;
 
         & > div:nth-child(2n) {
             display: flex;
             flex-direction: column;
             width: 60%;
-            margin-left: 5px;
+            margin-left: .5vw;
         }
 
         @media (max-device-width: 767px) {
@@ -186,7 +185,7 @@
 
             &:first-child {
                 margin-top: 5%;
-                font-size: calc(4px + .8vw);
+                font-size: 1.2vw;
             }
         }
 
@@ -203,7 +202,7 @@
 
     &__Item_6 {
         height: 40%;
-        margin-top: 5px;
+        margin-top: .5vw;
         
         justify-content: center;
 
@@ -226,17 +225,17 @@
 
             &:first-child {
                 text-transform: uppercase;
-                font-size: calc(4px + .8vw);
+                font-size: 1.2vw;
             }
 
             &:nth-child(2n) {
                 font-family: MyriadPro_Regular;
-                font-size: calc(6px + 1vw);
+                font-size: 1.3vw;
                 margin-bottom: .8vw;
             }
 
             &:nth-child(3n) {
-                font-size: calc(4px + .8vw);
+                font-size: 1.1vw;
                 opacity: 0.4;
             }
         }

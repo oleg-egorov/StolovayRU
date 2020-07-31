@@ -3,7 +3,7 @@
 .Sale {
     display: flex;
     width: 20%;
-    border: 2px solid #faad3d;
+    border: .1vw solid #faad3d;
     background-color: white;
 
     @media (max-device-width: 767px) {
@@ -13,9 +13,9 @@
     }
 
     &__Img {
-        width: 80px;
-        height: 80px;
-        margin-bottom: 20px;
+        width: 8vw;
+        height: 8vw;
+        margin-bottom: 2vw;
 
         @media (max-device-width: 767px) {
             width: 200px;
@@ -27,10 +27,10 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        margin: 50px 25px;
+        margin: 3vw 2vw;
 
         span {
-            font-size: calc(6px + .9vw);
+            font-size: 1.3vw;
 
             @media (max-device-width: 767px) {
                 font-size: 30px;
@@ -39,7 +39,7 @@
         }
 
         span:nth-child(3n) {
-            font-size: calc(8px + 1.8vw);
+            font-size: 2.4vw;
 
             @media (max-device-width: 767px) {
                 font-family: MyriadPro_Regular;
@@ -50,7 +50,7 @@
         a {
             margin-top: .5vw;
             color: #faad3d;
-            font-size: calc(6px + .8vw);
+            font-size: 1.2vw;
 
             @media (max-device-width: 767px) {
                 font-size: 40px;
@@ -59,7 +59,7 @@
 
             img {
                 margin-left: .5vw;
-                height: 10px;
+                height: .7vw;
 
                 @media (max-device-width: 767px) {
                     height: 20px;       

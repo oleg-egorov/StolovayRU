@@ -16,13 +16,13 @@
         align-items: center;
 
         a {
-            font-size: 24px;
-            margin-left: 30px;
+            font-size: 2.2vw;
+            margin-left: 3vw;
 
             img {
-                height: 14px;
-                width: 14px;
-                margin-left: 10px;
+                height: 1.2vw;
+                width: 1.2vw;
+                margin-left: 1vw;
             }
         }
 
@@ -76,15 +76,15 @@
 
             img {
                 &:first-child {
-                    height: 10px;
-                    width: 20px;
-                    margin: 10px 0;
+                    height: 1vw;
+                    width: auto;
+                    margin: 1vw 0;
                 }
 
                 &:last-child {
-                    width: 50px;
-                    height: 12px;
-                    margin: 5px 0;
+                    width: auto;
+                    height: 1.2vw;
+                    margin: .5vw 0;
                 }
             }
 
@@ -120,12 +120,12 @@
         }
 
         img {
-            height: 110px;
+            height: 11vw;
             width: auto; 
         }
 
         span {
-            font-size: calc(6px + .8vw);
+            font-size: 1.2vw;
         }
 
         &:hover {

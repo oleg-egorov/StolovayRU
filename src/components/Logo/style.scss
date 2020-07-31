@@ -1,15 +1,19 @@
 .Logo {
     display: flex;
-    margin: 0 50px 10px 50px ;
-    height: 100px;
+    margin: 0 5vw 1vw 5vw ;
+    height: 6vw;
     background-color: white;
+
+    a {
+        font-size: 1.2vw;
+    }
 
     &__Content {
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin: 10px 30px;
+        margin: 1vw 2vw;
 
         @media (max-device-width: 767px) { 
             flex-direction: column;
@@ -26,8 +30,8 @@
         }
     
         span {
-            width: 1px;
-            height: 60px;
+            width: .1vw;
+            height: 4vw;
             background-color: lightgray;
 
             @media (max-device-width: 767px) { 
