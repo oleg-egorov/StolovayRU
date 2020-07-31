@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8c0790308710e4dfc8ed58de0a87bedd",
+    "revision": "053144a356553bf17c24e236987bf9d1",
     "url": "/StolovayRU/index.html"
   },
   {
-    "revision": "fb9da56c229275cdd56f",
-    "url": "/StolovayRU/static/css/main.ea14746d.chunk.css"
+    "revision": "5ca5c58e35006d4604cf",
+    "url": "/StolovayRU/static/css/main.760048c9.chunk.css"
   },
   {
     "revision": "de3ec4651a95f1f117a6",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/StolovayRU/static/js/2.f79c78a0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fb9da56c229275cdd56f",
+    "revision": "5ca5c58e35006d4604cf",
     "url": "/StolovayRU/static/js/main.8a576079.chunk.js"
   },
   {
