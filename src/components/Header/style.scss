@@ -1,0 +1,32 @@
+.Header {
+    display: flex;
+    height: 48px;
+    background-color: #34a853;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+
+    span {
+        color: white;
+        cursor: pointer;
+        font-size:calc(6px + 0.6vw);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            height: 18px;
+            margin-right: 5px;
+        }
+    }
+
+    div {
+        height: 60%;
+        width: 1px;
+        background-color: #cebde54b;
+    }
+
+    @media (max-device-width: 767px) {
+        display: none;
+    }
+}

@@ -1,0 +1,12 @@
+.Block1 {
+    display: flex;
+    margin: 12px 50px;
+    height: 476px;
+    justify-content: space-between;
+
+    @media (max-device-width: 767px) {
+        flex-direction: column;
+        height: auto;
+        margin: 0;
+    }
+}

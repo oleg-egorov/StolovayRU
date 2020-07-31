@@ -1,0 +1,48 @@
+.CatalogMenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background-color: white;
+    box-shadow: 0 0 10px lightgray;
+
+    &__Item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        cursor: pointer;
+
+        span {
+            font-size:calc(4px + 0.7vw)
+        }
+    }
+
+    &__Item:first-child {
+        margin-left: 50px;
+    }
+
+    &__Item:last-child {
+        margin-right: 50px;
+    }
+
+    &__Circle {
+        display: flex;
+        height: 60px;
+        width: 60px;
+        overflow: hidden;
+        border-radius: 50%;
+        background: linear-gradient(lightgray, darkgray);
+
+        img {
+            position: relative;
+            bottom: 30px;
+            height: 100px;
+            width: 100px;
+        }
+    }
+
+    @media (max-device-width: 767px) {
+        display: none;
+    }
+}

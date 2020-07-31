@@ -1,0 +1,49 @@
+.Clients {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 150px;
+
+    img {
+        width: 100%;
+
+        &:nth-child(2n) {
+            display: none;
+        }
+
+        @media (max-device-width: 767px) {
+            &:first-child {
+                display: none;
+            }
+
+            &:nth-child(2n) {
+                display: flex;
+            }
+        }
+    }
+
+    &__AddButton {
+        display: none;
+    }
+
+    span {
+        display: none;
+    }
+
+    @media (max-device-width: 767px) {
+       margin: 100px 25px 50px 25px;
+
+       &__AddButton {
+            display: flex;
+
+        }
+
+        span {
+            display: flex;
+            margin-top: 10px;
+
+            font-size: 32px;
+            font-family: MyriadPro_Light;
+        }
+    }
+}

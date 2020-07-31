@@ -1,0 +1,51 @@
+.Service {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin-left: 10px;
+    height: 100%;
+
+    background-size: cover;
+    background-position-x: right;
+
+    &__Content {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin: 30px;
+        width: 90%;
+        height: 90%;
+
+        span {
+            font-size: calc(8px + 1.8vw);
+            color:white;
+        }
+
+        span:nth-child(2n), a {
+            font-family: MyriadPro_Light;
+            font-size: calc(6px + .9vw);
+            color:white;
+        }
+
+        @media (max-device-width: 767px) {
+            span {
+                font-size: 60px;
+            }
+
+            span:nth-child(2n) {
+                margin-top: 20px;
+                margin-bottom: 40px;
+            }
+
+            span:nth-child(2n), a {
+                font-size: 40px;
+            }
+        }
+    }
+
+    @media (max-device-width: 767px) {
+        width: 100%;
+        height: 750px;
+        margin: 0;
+    }
+}

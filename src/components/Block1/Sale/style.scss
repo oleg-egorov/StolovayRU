@@ -1,0 +1,71 @@
+
+
+.Sale {
+    display: flex;
+    width: 20%;
+    border: 2px solid #faad3d;
+    background-color: white;
+
+    @media (max-device-width: 767px) {
+        margin: 30px;
+        width: auto;
+        height: 580px;
+    }
+
+    &__Img {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 20px;
+
+        @media (max-device-width: 767px) {
+            width: 200px;
+            height: 200px;
+        }
+    }
+    
+    &__Content {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin: 50px 25px;
+
+        span {
+            font-size: calc(6px + .9vw);
+
+            @media (max-device-width: 767px) {
+                font-size: 30px;
+                font-family: MyriadPro_Light;
+            }
+        }
+
+        span:nth-child(3n) {
+            font-size: calc(8px + 1.8vw);
+
+            @media (max-device-width: 767px) {
+                font-family: MyriadPro_Regular;
+                font-size: 56px;
+            }
+        }
+
+        a {
+            margin-top: .5vw;
+            color: #faad3d;
+            font-size: calc(6px + .8vw);
+
+            @media (max-device-width: 767px) {
+                font-size: 40px;
+                margin-top: 40px;
+            }
+
+            img {
+                margin-left: .5vw;
+                height: 10px;
+
+                @media (max-device-width: 767px) {
+                    height: 20px;       
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+}

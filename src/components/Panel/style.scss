@@ -1,0 +1,257 @@
+.Panel {
+    display: flex;
+    flex-direction: column;
+    height: 70vw;
+    margin: 100px 150px;
+
+    @media (max-device-width: 767px) {
+        height: auto;
+        margin: 60px 30px;
+    }
+
+    &__Header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+
+        span {
+            font-size: 40px;
+            
+            &:nth-child(2n) {
+                font-size: 18px;
+                text-align: center;
+                width: 50%;
+            }
+        }
+
+        @media (max-device-width: 767px) {
+            span {
+                font-size: 60px;
+                
+                &:nth-child(2n) {
+                    font-family: MyriadPro_Light;
+                    font-size: 40px;
+                    width: 90%;
+                }
+            }
+        }
+    }
+
+    &__Midle {
+        display: flex;
+        height: 40%;
+
+        @media (max-device-width: 767px) {
+            flex-direction: column;
+        }
+    }
+
+    &__Item_1 {
+        width: 60%;
+    }
+
+    &__Item_1, &__Item_5 {
+        justify-content: center;
+        
+        background-image: url('../../assets/image/Panel/unox.png');
+        background-size: cover;
+        background-position: center;
+
+        span {
+            color: white;
+            margin-left: 35%;
+            width: 40%;
+        }
+    }
+
+    &__Item_2, &__Item_3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5px;
+        width: 20%;
+        background-color: white;
+
+        img {
+            height: 40%;
+            width: 30%;
+
+            &:last-child {
+                display: none;
+            }
+
+            @media (max-device-width: 767px) {
+                &:first-child {
+                    display: none;
+                }
+
+                &:last-child {
+                    display: flex;
+                    width: 35%;
+                    height: auto;
+                    margin-right: 5%;
+                }
+            }
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            span {
+                &:first-child {
+                    margin-top: 15px;
+                    text-transform: uppercase;
+                    font-family: MyriadPro_Light;
+                    font-size: calc(4px + .8vw);
+                }
+    
+                &:nth-child(2n) {
+                    font-size: 24px;
+                    margin-bottom: 20px;
+                    font-size: calc(6px + .8vw);
+                }
+    
+                &:nth-child(3n) {
+                    font-family: MyriadPro_Light;
+                    width: 80%;
+                    text-align: center;
+                    text-transform: none;
+                    opacity: 0.6;
+                    margin: 0;
+                    font-size: calc(4px + .8vw);
+                }
+            }
+        }
+
+        @media (max-device-width: 767px) {
+            flex-direction: row;
+
+            div {
+                align-items: flex-start;
+
+                span {
+                    margin-left: 5%;
+
+                    &:nth-child(3n) {
+                        width: 70%;
+                        text-align: left;
+                        margin-left: 5%;
+                    }
+                }                
+            }
+        }
+    }
+
+    &__Bottom {
+        display: flex;
+        height: 60%;
+        margin-top: 5px;
+
+        & > div:nth-child(2n) {
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            margin-left: 5px;
+        }
+
+        @media (max-device-width: 767px) {
+            flex-direction: column;
+            margin: 0;
+
+            & > div:nth-child(2n) {
+                width: auto;
+                margin: 0;
+            }
+        }
+    }
+
+    &__Item_4 {
+        height: 100%;
+        width: 40%;
+        align-items: center;
+        
+        background-image: url('../../assets/image/Panel/rational.png');
+        background-size: cover;
+        background-position: center;
+
+        span {
+            text-align: center;
+            width: 70%;
+
+            &:first-child {
+                margin-top: 5%;
+                font-size: calc(4px + .8vw);
+            }
+        }
+
+        @media (max-device-width: 767px) {
+            background-position-y: 20%;
+        }
+    }
+
+    &__Item_5 {
+        height: 60%;
+        background-image: url('../../assets/image/Panel/abat.png');
+        background-size: cover;
+    }
+
+    &__Item_6 {
+        height: 40%;
+        margin-top: 5px;
+        
+        justify-content: center;
+
+        background-image: url('../../assets/image/Panel/hicold.png');
+        background-size: cover;
+        background-position: center;
+
+        span {
+            margin-left: 5%;
+            width: 50%;
+        }
+    }
+
+    &__Item_1, &__Item_4, &__Item_5, &__Item_6 {
+        display: flex;
+        flex-direction: column;
+
+        span {
+            font-family: MyriadPro_Light;
+
+            &:first-child {
+                text-transform: uppercase;
+                font-size: calc(4px + .8vw);
+            }
+
+            &:nth-child(2n) {
+                font-family: MyriadPro_Regular;
+                font-size: calc(6px + 1vw);
+                margin-bottom: .8vw;
+            }
+
+            &:nth-child(3n) {
+                font-size: calc(4px + .8vw);
+                opacity: 0.4;
+            }
+        }
+    }
+
+    @media (max-device-width: 767px) {
+        &__Item_1, &__Item_2, &__Item_3, &__Item_4, &__Item_5, &__Item_6 {
+            width: auto;
+            height: 600px;
+            margin: 0;
+            margin-top: 15px;
+
+            span {
+                font-size: 34px !important;
+            }
+        }
+    }
+}

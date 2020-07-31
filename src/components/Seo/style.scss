@@ -1,0 +1,142 @@
+.Seo {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+
+    &__Content {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+
+        @media (max-device-width: 767px) {
+            width: auto;
+        }
+    }
+
+    &__Header {
+        font-size: calc(8px + 1.8vw);
+        margin-bottom: 10px;
+
+        @media (max-device-width: 767px) {
+            font-size: 65px; 
+        }
+    }
+
+    &__Title {
+        font-family: MyriadPro_Light;
+        font-size: calc(8px + 1.4vw);
+        margin: 10px 0;
+
+        @media (max-device-width: 767px) {
+            display: none; 
+        }
+    }
+
+    &__Text {
+        font-family: MyriadPro_Light;
+        font-size: calc(6px + .9vw);
+
+        @media (max-device-width: 767px) {
+            font-size: 40px;
+
+            &:nth-child(4n) {
+                display: none; 
+            }
+        }
+    }
+
+    &__About {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        img {
+            width: 150px;
+        }
+
+        &Brand {
+            margin-top: 15px;
+            font-size: 40px;
+        }
+
+        &Group {
+            margin-top: 15px;
+            font-size: calc(6px + .8vw);
+        }
+
+        & > span:nth-child(3n) {
+            color: gray;
+        }
+
+        span:nth-child(5n) {
+            color: gray;
+            margin-bottom: 15px;
+            font-size: calc(4px + .8vw);
+        }
+
+        @media (max-device-width: 767px) {
+            margin: 150px 75px;  
+
+            img {
+                width: 300px;
+            }
+
+            &Brand {
+                margin-top: 30px;
+                font-size: 60px;
+            }
+
+            &Group {
+                margin-top: 30px;
+                font-size: 40px;
+            }
+
+            & > span {
+                &:nth-child(3n), &:nth-child(5n) {
+                    font-size: 28px;
+                    font-family: MyriadPro_Light;
+                }
+            }
+
+            div {
+                span {
+                    color: black;
+                    font-size: 32px;
+                    font-family: MyriadPro_Light;
+                }
+            }
+        }
+    }
+
+    &__Indicators {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__AddButton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: black;
+
+        color: white;
+        font-size: 20px;
+
+        @media (max-device-width: 767px) {
+            width: 120px;
+            height: 120px;
+            font-size: 60px;
+            margin-top: 40px;
+        }
+    }
+
+    @media (max-device-width: 767px) {
+        flex-direction: column-reverse;
+        margin: 30px;
+    }
+}

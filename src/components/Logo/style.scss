@@ -1,0 +1,77 @@
+.Logo {
+    display: flex;
+    margin: 0 50px 10px 50px ;
+    height: 100px;
+    background-color: white;
+
+    &__Content {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 10px 30px;
+
+        @media (max-device-width: 767px) { 
+            flex-direction: column;
+            margin: 0;
+        }
+
+        img {
+            height: 2vw;
+
+            @media (max-device-width: 767px) { 
+                width: 250px;
+                height: auto;
+            }
+        }
+    
+        span {
+            width: 1px;
+            height: 60px;
+            background-color: lightgray;
+
+            @media (max-device-width: 767px) { 
+                height: 70%;
+            }
+        }
+
+        & > span {
+            @media (max-device-width: 767px) { 
+                &:nth-child(2n) {
+                    display: none;
+                }
+
+                &:nth-child(4n) {
+                    display: none;
+                }
+            }
+        }
+
+        & > div {
+            display: flex;        
+            justify-content: space-evenly;
+            align-items: center;
+            width: 33%;
+
+            @media (max-device-width: 767px) {
+                height: 210px;
+                width: 100%;
+                margin-top: 10px;
+                background-color: white;
+
+                a {
+                    width: 300px;
+                    text-align: center;
+                    font-size: 36px;
+                }
+            }
+        }
+    }
+
+
+    @media (max-device-width: 767px) {
+        margin: 0 30px;
+        height: auto;
+        background-color: rgba(255, 255, 255, 0);
+    }
+}

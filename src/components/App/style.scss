@@ -1,0 +1,46 @@
+@font-face {
+    font-family: MyriadPro_Bold;
+    src: url(../../assets/fonts/myriadpro-bold.ttf);
+}
+
+@font-face {
+    font-family: MyriadPro_Light;
+    src: url(../../assets/fonts/myriadpro-light.ttf);
+}
+
+@font-face {
+    font-family: MyriadPro_Regular;
+    src: url(../../assets/fonts/myriadpro-regular.ttf);
+}
+
+body {
+    margin: 0;
+}
+
+.App {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #f3f1f1;
+}
+
+span {
+    font-family: MyriadPro_Regular;
+    user-select: none;
+}
+
+a {
+    font-family: MyriadPro_Regular;
+    text-decoration: none;
+    color: black;
+    user-select: none;
+
+    &:active {
+        color: initial;
+    }
+}
+
+img {
+    user-select: none;
+}

@@ -1,0 +1,148 @@
+.Offer {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+
+    @media (max-device-width: 767px) {
+        flex-direction: column;
+        width: auto;
+        margin: 30px;
+    }
+
+    &__Header {
+        display: flex;
+        height: 15%;
+        align-items: center;
+
+        a {
+            font-size: 24px;
+            margin-left: 30px;
+
+            img {
+                height: 14px;
+                width: 14px;
+                margin-left: 10px;
+            }
+        }
+
+        @media (max-device-width: 767px) {
+            height: auto;
+
+            a {
+                margin: 20px 40px;
+                font-size: 40px;
+                font-family: MyriadPro_Light;
+
+                img {
+                    height: 20px;
+                    width: 20px;
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+
+    &__Menu {
+        display: flex;
+        height: 85%;
+
+        @media (max-device-width: 767px) {
+            flex-direction: column;
+            height: auto;
+        }
+    }
+
+    &__Item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 34%;
+
+        border: 1px solid lightgray;
+        border-left: none;
+        border-bottom: none;
+        transition: .2s;
+
+        &:last-child {
+            border-right: none;
+        }
+
+        & > div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img {
+                &:first-child {
+                    height: 10px;
+                    width: 20px;
+                    margin: 10px 0;
+                }
+
+                &:last-child {
+                    width: 50px;
+                    height: 12px;
+                    margin: 5px 0;
+                }
+            }
+
+            @media (max-device-width: 767px) {
+                display: flex;
+                width: 50%;
+                flex-direction: column;
+                align-items: flex-start;
+
+                img {
+                    &:first-child {
+                        height: 40px;
+                        width: auto;
+                        margin: 30px 0;
+                    }
+    
+                    &:last-child {
+                        height: 30px;
+                        width: auto;
+                        margin: 30px 0;
+                    }
+                }
+
+                span {
+                    font-size: 46px;
+                    font-family: MyriadPro_Light;
+                }
+
+                & > span:nth-child(3n) {
+                    font-family: MyriadPro_Bold;
+                }
+            }
+        }
+
+        img {
+            height: 110px;
+            width: auto; 
+        }
+
+        span {
+            font-size: calc(6px + .8vw);
+        }
+
+        &:hover {
+            background-color: whitesmoke;
+        } 
+
+        @media (max-device-width: 767px) {
+            width: auto;
+            justify-content: space-evenly;
+            flex-direction: row;
+            padding: 40px 0;
+
+            img {
+                margin: 30px;
+                width: 25%;
+                height: auto;
+            }
+        }
+    }
+}
