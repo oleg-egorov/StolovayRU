@@ -5,6 +5,9 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 5vw;
+    position: fixed;
+    width: stretch;
+    z-index: 2;
 
     span {
         color: white;

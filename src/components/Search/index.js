@@ -3,7 +3,29 @@ import React, { Component } from 'react';
 import './style.scss';
 
 export default class Search extends Component {
+    state = {
+        openSelect: false,
+    }
+
+    onClickSelect = () => {
+        this.setState((state) => {
+            return {
+                openSelect: !state.openSelect
+            }
+        });
+    }
+
     render () {
+        const { openSelect } = this.state;
+
+        let classSelect = 'Search__Select';  
+        let classPanel = 'Search__Panel';
+    
+        if (openSelect) {
+            classSelect += ' openSelect';
+            classPanel += ' openPanel';
+        };
+
         return (
             <div className='Search'>
                 <div className='Search__Logo'>
@@ -20,11 +42,31 @@ export default class Search extends Component {
                     </div>
                 </div>
 
-                <div className='Search__Panel'>
-                    <div className='Search__Panel_GrayButton'>
+                <div className={classPanel}>
+                    <div className='Search__Panel_GrayButton' onClick={this.onClickSelect}>
                         <span>Все</span>
                         <span></span>
                     </div>
+
+                    <div className={classSelect}>
+                        <span>Выберете категорию:</span>
+                        <div>
+                            <span>Все</span>
+                            <span>Весовое</span>
+                            <span>Для магазинов</span>
+                            <span>Для обеденных залов</span>
+                            <span>Нейтральное</span>
+                            <span>Для бара</span>
+                            <span>Для фаст-фуда</span>
+                            <span>Посудомоечное</span>
+                            <span>Тепловое</span>
+                            <span>Термоподносы</span>
+                            <span>Хлебопекарное</span>
+                            <span>Холодильное</span>
+                            <span>Электромеханическое</span>
+                        </div>
+                    </div>
+
                     <input />
                     <div className='Search__Panel_OrangeButton'>
                         <img src={require('../../assets/icons/loupe.svg')} alt='loupe'/>
