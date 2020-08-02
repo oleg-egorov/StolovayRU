@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/StolovayRU/static/css/main.59ca35ea.chunk.css",
+    "main.css": "/StolovayRU/static/css/main.b5088f6c.chunk.css",
     "main.js": "/StolovayRU/static/js/main.56952abe.chunk.js",
     "main.js.map": "/StolovayRU/static/js/main.56952abe.chunk.js.map",
     "runtime-main.js": "/StolovayRU/static/js/runtime-main.d071d407.js",
@@ -8,9 +8,9 @@
     "static/js/2.f79c78a0.chunk.js": "/StolovayRU/static/js/2.f79c78a0.chunk.js",
     "static/js/2.f79c78a0.chunk.js.map": "/StolovayRU/static/js/2.f79c78a0.chunk.js.map",
     "index.html": "/StolovayRU/index.html",
-    "precache-manifest.daf4ca8bdb1ae1715e7ef82fb7ea9398.js": "/StolovayRU/precache-manifest.daf4ca8bdb1ae1715e7ef82fb7ea9398.js",
+    "precache-manifest.397290d5098350edf09bb1b87a8c84d3.js": "/StolovayRU/precache-manifest.397290d5098350edf09bb1b87a8c84d3.js",
     "service-worker.js": "/StolovayRU/service-worker.js",
-    "static/css/main.59ca35ea.chunk.css.map": "/StolovayRU/static/css/main.59ca35ea.chunk.css.map",
+    "static/css/main.b5088f6c.chunk.css.map": "/StolovayRU/static/css/main.b5088f6c.chunk.css.map",
     "static/js/2.f79c78a0.chunk.js.LICENSE.txt": "/StolovayRU/static/js/2.f79c78a0.chunk.js.LICENSE.txt",
     "static/media/1.png": "/StolovayRU/static/media/1.a4714f16.png",
     "static/media/10.png": "/StolovayRU/static/media/10.5450882f.png",
@@ -45,7 +45,7 @@
   "entrypoints": [
     "static/js/runtime-main.d071d407.js",
     "static/js/2.f79c78a0.chunk.js",
-    "static/css/main.59ca35ea.chunk.css",
+    "static/css/main.b5088f6c.chunk.css",
     "static/js/main.56952abe.chunk.js"
   ]
 }
