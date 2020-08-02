@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "053144a356553bf17c24e236987bf9d1",
+    "revision": "580f8a72ab7fc44cc74668407745b6df",
     "url": "/StolovayRU/index.html"
   },
   {
-    "revision": "5ca5c58e35006d4604cf",
-    "url": "/StolovayRU/static/css/main.760048c9.chunk.css"
+    "revision": "2b94848c2dc70916021c",
+    "url": "/StolovayRU/static/css/main.59ca35ea.chunk.css"
   },
   {
     "revision": "de3ec4651a95f1f117a6",
@@ -16,12 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/StolovayRU/static/js/2.f79c78a0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5ca5c58e35006d4604cf",
-    "url": "/StolovayRU/static/js/main.8a576079.chunk.js"
+    "revision": "2b94848c2dc70916021c",
+    "url": "/StolovayRU/static/js/main.56952abe.chunk.js"
   },
   {
     "revision": "b622c05c38dbbc8aa9d3",
     "url": "/StolovayRU/static/js/runtime-main.d071d407.js"
+  },
+  {
+    "revision": "3a691d2d1738b5bc8c9a11a03f530b45",
+    "url": "/StolovayRU/static/media/1.3a691d2d.png"
   },
   {
     "revision": "3bd9b6f67875ed4c7b6bc1f06c86b747",
@@ -162,10 +166,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c57c3724b8b5e0ef7c434b1e305c256e",
     "url": "/StolovayRU/static/media/slide.c57c3724.png"
-  },
-  {
-    "revision": "393451a43db46353dccbb16b0b2f0b5a",
-    "url": "/StolovayRU/static/media/slider.393451a4.png"
   },
   {
     "revision": "6489413aaea59111bd7c5e239706825f",
